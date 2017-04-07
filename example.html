@@ -1,0 +1,18 @@
+<html>
+    <head>
+        <script src="./router.js"></script>
+        <script>
+var x = {"hello": function(){
+    alert('this is hello');
+},
+    "miao": function(){
+        alert('this is miao');
+    }}
+            var router = fRouter(x);
+        </script>
+    </head>
+    <body>
+        <h2 onclick="router.changeTo('hello')" >hello</h2>
+        <h3 onclick="router.changeTo('miao')">miao</h3>
+    </body>
+</html>
